@@ -1,0 +1,34 @@
+The diff utility was developed in the early 1970s
+on the Unix operating system
+which was emerging from AT&T Bell Labs
+in Murray Hill, New Jersey.
+The final version, first shipped with the 5th Edition
+of Unix in 1974,
+was entirely written by Douglas McIlroy.
+This research was published in a 1976 paper
+co-written with James W. Hunt who developed
+an initial prototype of diff.[2]
+The algorithm this paper described became
+known as the Hunt–McIlroy algorithm.
+
+McIlroy's work was preceded and influenced
+by Steve Johnson's comparison
+program on GECOS and Mike Lesk's proof program.
+proof also originated on Unix and,
+like diff, produced line-by-line changes
+and even used angle-brackets
+(">" and "<") for presenting line
+insertions and deletions in
+the program's output.
+The heuristics used in these early applications were,
+however, deemed unreliable.
+The potential usefulness of a diff tool
+provoked McIlroy into researching
+and designing a more robust tool that could
+be used in a variety of tasks
+but perform well in the processing
+and size limitations of the PDP-11's hardware.
+His approach to the problem resulted from
+collaboration also with individuals
+at Bell Labs including Alfred Aho,
+Elliot Pinson, Jeffrey Ullman, and Harold S. Stone.

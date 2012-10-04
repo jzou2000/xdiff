@@ -1,0 +1,60 @@
+Below is a summary of all of the options that GNU diff  accepts.  Most
+options have two equivalent names, one of which is a single letter pre-
+ceded by -, and the other of which is a long name preceded by --.  Mul-
+tiple  single letter options (unless they take an argument) can be com-
+bined into a single command line word: -ac  is  equivalent  to  -a  -c.
+Long  named  options  can  be abbreviated to any unique prefix of their
+name.  Brackets ([ and ]) indicate that an  option  takes  an  optional
+argument.
+
+-lines Show  lines (an integer) lines of context.  This option does not
+       specify an output format by itself; it has no effect  unless  it
+       is combined with -c or -u.  This option is obsolete.  For proper
+       operation, patch typically needs at least two lines of  context.
+
+-a     Treat  all  files as text and compare them line-by-line, even if
+       they do not seem to be text.
+
+14846: [25466.0] {32} (3) <-- Event 4 ButtonPress
+
+sequence #        0x2150 (14837)
+button            1
+time              25465
+root              0x31
+event             0x400157
+child             None
+root xy           [431, 817]
+event xy          [153, 13]
+state             Mod2
+same screen       true
+
+14847: [25466.0] {7} (2) <-- ThinXProxy Request 74 ManipulateWindow
+
+do                GrabPointer
+drawable          0x400157
+
+14849: [25471.5] {28} (3) --> Request 18 ChangeProperty
+
+mode              Replace
+window            0x40005d
+property          _NET_WM_USER_TIME
+type              CARDINAL
+format            32
+format units      1
+data              0x6379
+
+14850: [25471.0] {32} (3) <-- Event 28 PropertyNotify
+
+sequence #        0x2151 (14849)
+window            0x40005d
+atom              _NET_WM_USER_TIME
+time              25471
+place             NewValue
+
+14851: [25471.0] {16} (3) --> Request 40 TranslateCoordinates
+
+source window     0x31
+dest window       0x4000e8
+source xy         [431, 817]
+
+
